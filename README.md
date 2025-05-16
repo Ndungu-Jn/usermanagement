@@ -1,4 +1,4 @@
-# Django User Management API
+# User Management 
 
 This is a Django REST Framework (DRF) based API for user management. It provides features for user registration, login, profile updates, password changes, and account deletion using token-based authentication.
 
