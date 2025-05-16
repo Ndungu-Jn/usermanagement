@@ -77,6 +77,18 @@ This project uses Token Authentication. After login, include the token in the Au
 
 Authorization: Token your_token_here
 
+## 🧪 API Testing with Postman
+
+Test the Django API endpoints using the Postman collection.
+
+## How to Use:
+1. Open Postman
+2. Import the collection
+3. Run the requests or use the collection runner to test all CRUD operations
+
+📝 Make sure your Django server is running at `http://127.0.0.1:8000/` 
+
+
 ## Author
 
 Developed by  John Ndungu
