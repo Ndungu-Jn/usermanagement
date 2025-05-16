@@ -50,19 +50,26 @@ Each user is expected to have a one-to-one relationship with a `Profile`.
 1.**clone the repository**
 
 2.**Create a virtual environment**
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 3.**Install dependencies**
+```bash
 pip install -r requirements.txt
+```
 
 4.**Apply migrations**
+```bash
 python manage.py makemigrations
 python manage.py migrate
+```
 
 5.**Run the development server**
+```bash
 python manage.py runserver
-
+```
 
 ## Authentication
 
