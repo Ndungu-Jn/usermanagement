@@ -38,17 +38,42 @@ This is a Django REST Framework (DRF) based API for user management. It provides
 
 ## Models
 
-This project uses a `Profile` model with fields like:
+This project uses a `Profile` model with the fields :
 - `bio`
 - `location`
 - `birth_date`
 
 Each user is expected to have a one-to-one relationship with a `Profile`.
 
-## Setup Instructions
+##Setup Instructions
 
-1. **Clone the repository**
+1.**clone the repository**
 
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+2.**Create a virtual environment**
+python -m venv venv
+venv\Scripts\activate
+
+3.**Install dependencies**
+pip install -r requirements.txt
+
+4.**Apply migrations**
+python manage.py makemigrations
+python manage.py migrate
+
+5.**Run the development server**
+python manage.py runserver
+
+
+## Authentication
+
+This project uses Token Authentication. After login, include the token in the Authorization header for authenticated requests:
+
+Authorization: Token your_token_here
+
+## Author
+
+Developed by  John Ndungu
+
+
+
+
